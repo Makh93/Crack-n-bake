@@ -1,43 +1,145 @@
-
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  primary-color: deeppink;
+  secondary-color: deepskyblue;
+  theme-color: pink;
 }
-body{background-image: url(https://wallpapers.com/images/hd/serene-lake-and-mountains-ozit88jpc4jsiadu.jpg);
-background-repeat: no-repeat;
-height: 100vh;
-display: grid;
-grid-template-columns: repeat(3, 500px);
-grid-template-rows: repeat(5, 200px);
-}
-header{display: flex;
-    flex-direction: column;
-color: #0d2f4dcb;
-justify-content: center;
-align-items: center;
-margin-top: 10rem;
-margin-left: 150px;
-grid-area: 2/4/3/2;
-background-color: rgba(241, 232, 232, 0.39);
-height: 200px;
-width: 65%;
-border-radius: 20px;
-}
-h1{font-size: 6rem;}
-p{font-size: 2.5rem;
-color: #2d6a72;}
 
-section{background-color: rgba(240, 248, 255, 0.719);
-height: 100vh;
-width: 10%;}
-ul{list-style: none;  
+@font-face {
+  font-family:'lobster' ;
+  src: url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 }
-li{padding: 7px;}
-.ME{font-size: 2.6rem;
- background-color:#4284becb;
- margin-left: 0px;
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+    
+  }
+header {
+   position: sticky;
+   top: 0;
+  background-color: pink;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-left: 5rem;
+border-bottom: 5px solid deepskyblue;
+
+
 }
-section{display: flex;
-flex-direction: column;
-justify-content: space-between;}
+
+h1 {
+  margin-bottom: 5px;
+  color: deeppink;
+  
+}
+header h1 {
+  font-size: 3rem;
+  animation: pulse 2.2s ease 0s infinite normal none;
+}
+img {
+  width: 50px;
+  border-radius: 50%;
+}
+ul {
+  color: deeppink;
+  display: flex;
+  font-size: 1.5rem;
+}
+li {
+  margin: 10px;
+  list-style: none;
+  padding-left: 10px;
+}
+ul li:hover {
+  font-size: 2rem;
+  color: deepskyblue;
+  transition: 0.8s;
+  text-decoration: overline;
+}
+
+main{
+    background-image: url(../images/partycake.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    background-position: 50% up;
+    display: flex;
+
+z-index:1
+    
+}
+.intro{
+   
+    width:100%;
+    position: absolute;
+    height: 100vh;
+    top: 5.5rem;
+    right: 0rem;
+    background-color: rgba(0, 0, 0, 0.699);
+    border: 5px solid deeppink;
+    box-shadow: inset 0px 0px 16px 0px pink ;
+}
+
+.intro h1{
+    width: 90%;
+    margin-left: 5rem;
+    color: rgb(255, 168, 182);
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 90px; 
+    
+}
+.intro h1:hover{
+  transition: 0.8s;
+
+}
+
+p{
+    color: deepskyblue; 
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-weight: 400;
+    font-family: 'lobster';
+    
+} p:hover{
+  transition: 1.2s;
+  color: black;
+  font-size: 3rem;
+  text-shadow: 0 15px 25px pink;}
+
+   a{
+    text-decoration: none;
+    color: deeppink;
+   } 
+   a:hover{
+    color: deepskyblue;
+   }
+
+  .icons{
+    position: absolute;
+    font-size: 2rem;
+    bottom: 10%;
+    left: 45%;
+    color: deepskyblue;
+  }
+  i{
+    font-size: 2rem;
+  }
+  i:hover{
+    color: deepskyblue;
+    font-size: 4rem;
+    transition: 0.8s;
+  }

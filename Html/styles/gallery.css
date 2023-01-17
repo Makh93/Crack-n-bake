@@ -1,0 +1,129 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+@font-face {
+    font-family:'lobster' ;
+    src: url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+}
+
+
+
+
+
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+    
+  }
+  body{
+    background-color: gainsboro;
+    height: 100vh;
+  }
+  header {
+   position: sticky;
+   top: 0;
+   
+  background-color: pink;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  padding-left: 5rem;
+  border-bottom:5px solid deepskyblue;
+  border-radius: 5px;
+  box-shadow:0px 0px 16px 0px pink ;
+  
+  }
+  
+  h1 {
+  margin-bottom: 5px;
+  color: deeppink;
+  padding-top: 15px;
+  
+  }
+  i{
+    margin-right: 7px;
+  }
+  header h1 {
+  font-size: 3rem;
+  animation: pulse 2.2s ease 0s infinite normal none;
+  }
+ 
+  ul {
+  color: deeppink;
+  display: flex;
+  font-size: 1.5rem;
+  }
+  li {
+  margin: 10px;
+  list-style: none;
+  padding-left: 10px;
+  padding-top: 15px;
+  }
+  ul li:hover {
+  font-size: 2rem;
+  color: deepskyblue;
+  transition: 0.8s;
+  text-decoration: overline;
+  }
+  a{
+    text-decoration: none;
+    color: deeppink;
+   } 
+   a:hover{
+    color: deepskyblue;
+   }
+  .cakes{
+    
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding-top: 5rem;
+  }
+  div{
+    width: 85%;
+    height: 300px;
+    background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow:0px 5px 16px 0px rgb(68, 181, 219) ;
+margin: 30px;
+border-top-right-radius: 20px;
+
+justify-content: center;
+}
+  img{
+    width: 250px;
+    margin: 20px;
+    height: 250px;
+    margin: 10px;
+  }
+  div{
+    font-size: 1.4rem;
+    color:deeppink;
+    font-family: 'lobster';
+    transition: 1s;
+  }
+  div:hover{
+    animation: pulse 2.2s ease 0s infinite normal none;
+    font-size: 1.6rem;
+  }
