@@ -125,5 +125,5 @@ justify-content: center;
   }
   div:hover{
     animation: pulse 2.2s ease 0s infinite normal none;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }

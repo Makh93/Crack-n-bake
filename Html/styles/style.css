@@ -116,7 +116,7 @@ p{
     
 } p:hover{
   transition: 1.2s;
-  color: black;
+  color: white;
   font-size: 3rem;
   text-shadow: 0 15px 25px pink;}
 
