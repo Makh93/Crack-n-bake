@@ -111,12 +111,12 @@ border-top-right-radius: 20px;
 
 justify-content: center;
 }
-  img{
-    width: 250px;
-    margin: 20px;
-    height: 250px;
-    margin: 10px;
-  }
+.cake img{
+  width: 250px;
+  margin: 20px;
+  height: 250px;
+  margin: 10px;
+}
   div{
     font-size: 1.4rem;
     color:deeppink;
@@ -126,4 +126,11 @@ justify-content: center;
   div:hover{
     animation: pulse 2.2s ease 0s infinite normal none;
     font-size: 1.8rem;
+  }
+
+ #egg{
+
+position:relative;
+left: 0;
+right: 50%;
   }
