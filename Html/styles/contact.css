@@ -1,0 +1,186 @@
+header {
+  position: absolute;
+width: 100%;
+top: 0;
+ background-color: pink;
+ height: 10vh;
+ display: flex;
+ justify-content: space-around;
+ padding-top: 20px;
+ padding-left: 5rem;
+border-bottom: 5px solid deepskyblue;
+
+
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+  
+}
+
+header h1 {
+  font-size: 3rem;
+  animation: pulse 2.2s ease 0s infinite normal none;
+  }
+h1 {
+    margin-bottom: 5px;
+    color: deeppink;
+    
+  }
+  header h1 {
+    font-size: 3rem;
+    animation: pulse 2.2s ease 0s infinite normal none;
+  }
+  img {
+    width: 50px;
+    border-radius: 50%;
+  }
+  ul {
+    color: deeppink;
+    display: flex;
+    font-size: 1.5rem;
+  }
+  li {
+    margin: 10px;
+    list-style: none;
+    padding-left: 10px;
+  }
+  .pages li:hover {
+    font-size: 2rem;
+    color: deepskyblue;
+    transition: 0.8s;
+    text-decoration: overline;
+  }
+
+
+a{
+  text-decoration: none;
+  color: deeppink;
+}
+
+
+  .icons{
+    position: absolute;
+    font-size: 2rem;
+    bottom: 10%;
+    left: 45%;
+    color: deepskyblue;
+    
+  }
+  i{
+    font-size: 2rem;
+  }
+  i:hover{
+    color: deepskyblue;
+    font-size: 4rem;
+    transition: 0.8s;
+  }
+  main h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+  }
+
+  .boxes{
+
+display: flex;
+justify-content: space-around;
+
+margin-top: 5%;
+
+
+  }
+
+  .boxes div{
+
+border:2px solid pink;
+background-color: rgba(0, 191, 255, 0.281);
+border-radius: 10px;
+border: 3px solid deepskyblue;
+  }
+
+  .Name{
+
+
+display: flex;
+justify-content: center;
+padding: 200px;
+
+  }
+  form{
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+  }
+
+  input{
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: deeppink;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+  }
+
+
+  button{
+
+    margin-top: 20px;
+ width:25%;
+    padding: 10px;
+    margin-left: 75%;
+    color: deeppink;
+border: none;
+  }
+  .Form{
+
+width: 50%;
+background-color: rgba(255, 192, 203, 0.987);
+margin-left: 25%;
+padding: 5%;
+margin-top: 50px;
+border-radius: 10px;
+border: 3px solid deeppink;
+margin-bottom: 30px;
+
+  }
+
+  textarea{
+
+    margin-top: 30px;
+    margin-left: 16px;
+    padding-left: 15px;
+    font-size: x-large;
+    color: deeppink;
+    border: none;
+  }
+
+  form :hover{
+
+
+    border: 2px solid deeppink;
+
+
+  }
+
+  button:hover{
+
+font-size: 20px;
+
+  }
+
+  .div1{
+
+
+    width: 30%;
+    
+  }
